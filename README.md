@@ -3,9 +3,6 @@
 ## Overview
 A Telegram bot for advertising marketplace - connects channel owners with advertisers. Built with Python, aiogram 3.4, SQLAlchemy (SQLite), and Crypto Pay for payments.
 
-## Recent Changes
-- 2026-02-12: Initial Replit setup - fixed package imports (cryptopay-sdk → aiocryptopay), added missing `__init__.py` files, added missing FSM state
-
 ## Project Architecture
 - `bot.py` - Main entry point, bot initialization, scheduler
 - `config.py` - Configuration (env vars: BOT_TOKEN, CRYPTO_PAY_TOKEN)
